@@ -12,7 +12,7 @@
     "dev": "astro dev",
     "fix": "bun run lint && bun run format",
     "format": "biome format --write .",
-    "lint": "biome check --apply-unsafe .",
+    "lint": "biome check --write --unsafe .",
     "preview": "bun run build && bun run serve",
     "prod": "bun run check && astro build",
     "serve": "node ./dist/server/entry.mjs",
